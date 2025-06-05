@@ -99,7 +99,7 @@ def main():
             translated_df.columns = [header_map.get(col, col) for col in original_headers]
 
             # --- Save file ---
-            translated_df.to_csv(output_path, index=False)
+            translated_df.to_csv(output_path, index=False, encoding='utf-8')
             print(f"✅ Saved: {output_path}")
 
             # Update untranslated log
