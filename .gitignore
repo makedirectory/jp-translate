@@ -1,3 +1,10 @@
 /.venv
 /google-credentials.json
 .DS_Store
+untranslated_cells_log.txt
+*.csv
+*.xlsx
+*.xls
+*.xlsm
+*.xlsb
+*.xltx
